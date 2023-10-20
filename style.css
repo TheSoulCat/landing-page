@@ -56,6 +56,7 @@ a {
     display: flex;
     align-items: center;
     background-color: #1F2937;
+    gap: 50px;
 }
 
 .content {
@@ -64,12 +65,14 @@ a {
     align-items: flex-start;
     max-width: 25%;
     margin-left: 25%;
+    gap: 10px;
 }
 
-.main {
+.heading {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: auto;
 }
 
 .subtext {
