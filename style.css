@@ -56,7 +56,7 @@ a {
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    gap: 50px;
+    gap: 100px;
 }
 
 .content {
@@ -65,7 +65,18 @@ a {
     align-items: flex-start;
     max-width: 25%;
     margin-left: 25%;
-    gap: 10px;
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+    height: 350px;
+    margin-right: 25%;
+}
+
+img {
+    border-radius: 100px;
+    min-width: 100%;
 }
 
 .heading {
@@ -78,6 +89,16 @@ a {
 .subtext {
     font-size: 18px;
     color: #e5e7eb
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
 }
 
 .footer {
