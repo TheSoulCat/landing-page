@@ -42,17 +42,24 @@ a {
     color: #e5e7eb;
 }
 
-.container {
+.main-container {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-.container div {
+.main-container div {
     flex: 1;
 }
 
 .hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    width: 100%;
+ }
+
+.hero-container {
     display: flex;
     align-items: center;
     background-color: #1F2937;
@@ -64,19 +71,16 @@ a {
     flex-direction: column;
     align-items: flex-start;
     max-width: 25%;
-    margin-left: 25%;
-    gap: 20px;
+    gap: 25px;
 }
 
 .image-container {
     display: flex;
     height: 350px;
-    margin-right: 25%;
 }
 
 img {
     border-radius: 100px;
-    min-width: 100%;
 }
 
 .heading {
