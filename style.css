@@ -62,7 +62,7 @@ li > a {
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
-    gap: 75px;
+    gap: 50px;
 }
 
 .content {
@@ -77,7 +77,7 @@ li > a {
     max-width: fit-content;
 }
 
-img {
+.cool-cat {
     border-radius: 100px;
     height: 300px;
 }
@@ -101,6 +101,16 @@ button {
     padding: 10px 25px;
     border-radius: 8px;
     border: none;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.image {
+    max-width: 800px;
 }
 
 .footer {
