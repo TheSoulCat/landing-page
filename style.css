@@ -103,12 +103,19 @@ button {
     border: none;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
-    padding: 52px;
+    padding-top: 52px;
 }
 
 .info-container {
@@ -132,6 +139,7 @@ button {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
 
 .footer {
     display: flex;
