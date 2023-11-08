@@ -55,6 +55,7 @@ li > a {
 .hero {
     display: flex;
     background-color: #1F2937;
+    flex-shrink: 0;                 /* Test to see if div shrinks */
  }
 
 .hero-container {
@@ -140,6 +141,31 @@ button {
     margin-bottom: 10px;
 }
 
+.qoute {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.qoute-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 33.33%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 100px;              /* Testing margins */
+}
+
+.signature {
+    margin-left: auto;
+    font-weight: bold;
+}
 
 .footer {
     display: flex;
