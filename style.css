@@ -46,6 +46,7 @@ li > a {
     flex: 1;
     display: flex;
     flex-direction: column;
+    min-height: 1300px;
 }
 
 .main-container div {
@@ -55,7 +56,6 @@ li > a {
 .hero {
     display: flex;
     background-color: #1F2937;
-    flex-shrink: 0;                 /* Test to see if div shrinks */
  }
 
 .hero-container {
@@ -159,12 +159,21 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    margin: 100px;              /* Testing margins */
+    margin: 75px;             
 }
 
 .signature {
     margin-left: auto;
+    margin-top: 20px;
     font-weight: bold;
+
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
 }
 
 .footer {
