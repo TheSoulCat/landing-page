@@ -30,6 +30,7 @@ body {
 .links {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 25px;
     font-size: 18px;
 }
@@ -211,8 +212,12 @@ button:hover {
 
 .action-header {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 5px;
+}
+
+.action-subtext {
+    font-size: 18px;
 }
 
 .action-signup {
