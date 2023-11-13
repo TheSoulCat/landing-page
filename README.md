@@ -1,3 +1,4 @@
 # landing-page
-The Odin Project - Landing Page 
-This project is the final project in the CSS portion of The Odin Project foundations course.
+The Odin Project - Landing Page Project
+
+This project is the final project in the CSS portion of The Odin Project foundations course.  It wa s a challenging, but fun project. 
